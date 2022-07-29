@@ -1,26 +1,5 @@
 "use strict";
 
-// console.log(document.querySelector('.message').textContent);
-
-// document.querySelector('.message').textContent = 'Correct number! 🎉';
-
-// console.log(document.querySelector('.message').textContent);
-
-// document.querySelector('.number').textContent = 13;
-
-// document.querySelector('.score').textContent = 10;
-
-// document.querySelector('.guess').value = 23;
-
-// console.log(document.querySelector('.guess').value);
-
-//  const number = function randomNumb(min, max) {
-//   min = Math.ceil(min);
-//   max = Math.floor(max);
-//   return Math.floor(Math.random() * (max - min + 1) + min);
-// }
-//console.log(randomNumb(1, 20));
-
 //Variables and functions
 let number = Math.trunc(Math.random() * 20) + 1;
 let score = 20;
